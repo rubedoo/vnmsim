@@ -1,0 +1,86 @@
+lod x
+mul w
+sto t1
+hlt
+//
+lod z
+sub y
+sto t2
+hlt
+//
+lod t2
+add t1
+sto t3
+hlt
+//
+//
+lod z
+div y
+sto t4
+hlt
+//
+lod t20
+mul t4
+sto t5
+hlt
+//
+lod t20
+mul x
+sto t6
+hlt
+//
+lod t5
+add y
+sto t7
+hlt
+//
+lod t7
+add t6
+sto t8
+hlt
+//
+lod t3
+mul t8
+sto t9
+hlt
+//
+lod t9
+sub z
+sto t10
+hlt
+//
+lod t10
+div z
+sto t11
+hlt
+// //
+
+lod y
+mul z
+sto t12
+hlt
+//
+lod x
+add t12
+sto t13
+hlt
+//
+lod t13
+sub w
+sto t14
+hlt
+//
+lod z
+div t14
+sto t15
+hlt
+//
+lod t15
+add y
+sto t16
+hlt
+//
+lod t11
+div t16
+sto t17
+hlt
